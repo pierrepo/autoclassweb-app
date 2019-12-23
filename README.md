@@ -41,11 +41,9 @@ $ bash autoclassweb-app.sh
 ```
 
 
+# Notes
 
-
-
-
-Important note: if you move the install folder, you have to re-run the installation scripts.
+If you move the install folder (`autoclassweb-app-master`), you have to re-run the installation script.
 
 
 
