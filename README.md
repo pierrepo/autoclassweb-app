@@ -33,12 +33,34 @@ $ bash install_for_mac_linux.sh
 
 ## Run the app
 
-For Windows, double-click on the file `autoclassweb-app.bat`.
+For Windows, double-click on the file `autoclassweb-app.bat`. Accept security warnings if any.
 
 For Mac or Linux/Ubuntu, open a terminal and run the following command:
 ```
 $ bash autoclassweb-app.sh
 ```
+
+## Use the app
+
+Once started, open a web browser to the following address:
+
+<http://127.0.0.1:5000>
+
+The directory `demo` in `autoclassweb-app-master` contains to files for a quick demo:
+
+- `demo_real_location.tsv`: upload this file as *Real Location*
+- `demo_real_scalar.tsv`: upload this file as *Real Scalar*
+
+Use both files. The expected number of class is 3 
+
+
+## Stop the app
+
+While idle, the app will use very few resources. If you want to stop the app anyway, run the following command in a terminal:
+```
+$ docker stop autoclassweb
+```
+
 
 
 # Notes
