@@ -33,7 +33,7 @@ $ bash install_for_mac_linux.sh
 
 ## Run the app
 
-*Remarque: ajust app parameters in the file `autoclassweb.cfg` in the `config` directory. Defaults should be OK.*
+*Remark: app parameters are in the file `autoclassweb.cfg` in the `config` directory. Defaults should be OK.*
 
 For Windows, double-click on the file `autoclassweb-app.bat`. Accept security warnings if any.
 
@@ -46,7 +46,7 @@ $ bash autoclassweb-app.sh
 
 ## Use the app
 
-Once started, open a web browser to the following address:
+Once the app is started, open a web browser to the following address:
 
 <http://127.0.0.1:5000>
 
@@ -56,9 +56,9 @@ The directory `demo` in `autoclassweb-app-master` contains some files for a quic
 - Upload the file `demo_real_scalar.tsv` as *Real Scalar*.
 - Keep all other parameters as defaults.
 
-The classification should take a couple of seconds to perform. Refresh the page every 10 seconds or so.
+The classification should take a couple of seconds to perform. Refresh the page often to get the results.
 
-The expected number of classes is 3 with means of variables $x$ and $y$ being approximately ${3, 4}$, ${4, 0}$ and ${7, 5}$.
+The expected number of classes is 3 with means of variables *x* and *y* being approximately *{3, 4}*, *{4, 0}* and *{7, 5}*.
 
 
 ## Stop the app
