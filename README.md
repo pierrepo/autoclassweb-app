@@ -46,12 +46,15 @@ Once started, open a web browser to the following address:
 
 <http://127.0.0.1:5000>
 
-The directory `demo` in `autoclassweb-app-master` contains to files for a quick demo:
+The directory `demo` in `autoclassweb-app-master` contains some files for a quick demo:
 
-- `demo_real_location.tsv`: upload this file as *Real Location*
-- `demo_real_scalar.tsv`: upload this file as *Real Scalar*
+- Upload the file `demo_real_location.tsv` as *Real Location*.
+- Upload the file `demo_real_scalar.tsv` as *Real Scalar*.
+- Keep all other parameters as defaults.
 
-Use both files. The expected number of class is 3 
+The classification should take a couple of seconds to perform. Refresh the page every 10 seconds or so.
+
+The expected number of classes is 3 with means of variables $x$ and $y$ being approximately ${3, 4}$, ${4, 0}$ and ${7, 5}$.
 
 
 ## Stop the app
