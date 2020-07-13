@@ -74,5 +74,5 @@ $ docker stop autoclassweb
 
 If you move the install folder (`autoclassweb-app-master`), you have to re-run the installation script.
 
-
+The installation procedure is inspired from [START-R](https://github.com/thomasdenecker/START-R) developed by Thomas Denecker.
 
