@@ -43,7 +43,6 @@ $ bash autoclassweb-app.sh
 ```
 
 
-
 ## Use the app
 
 Once the app is started, open a web browser to the following address:
@@ -67,7 +66,6 @@ While idle, the app will use very few resources. If you want to stop the app any
 ```
 $ docker stop autoclassweb
 ```
-
 
 
 # Notes
