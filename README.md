@@ -33,12 +33,16 @@ $ bash install_for_mac_linux.sh
 
 ## Run the app
 
+*Remarque: ajust app parameters in the file `autoclassweb.cfg` in the `config` directory. Defaults should be OK.*
+
 For Windows, double-click on the file `autoclassweb-app.bat`. Accept security warnings if any.
 
 For Mac or Linux/Ubuntu, open a terminal and run the following command:
 ```
 $ bash autoclassweb-app.sh
 ```
+
+
 
 ## Use the app
 
