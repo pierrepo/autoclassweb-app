@@ -51,6 +51,9 @@ Once the app is started, open a web browser to the following address:
 
 <http://127.0.0.1:5000>
 
+
+## Demo
+
 The directory `demo` in `autoclassweb-app-master` contains some files for a quick demo:
 
 - Upload the file `demo_real_location.tsv` as *Real Location*.
@@ -59,20 +62,20 @@ The directory `demo` in `autoclassweb-app-master` contains some files for a quic
 
 The classification should take a couple of seconds to perform. Refresh the page often to get the results.
 
-The expected number of classes is 3 with means of variables *x* and *y* being approximately *{3, 4}*, *{4, 0}* and *{7, 5}*.
+You should expect 3 classes with 100 members and with the means of variables *x* and *y* being approximately *{3, 4}*, *{4, 0}* and *{7, 5}* (not necessarily in this order).
 
 
 ## Stop the app
 
 While idle, the app will use very little resources. If you want to stop the app anyway, run the following command in a terminal:
-```
+```bash
 $ docker stop autoclassweb
 ```
 
 
 # Notes
 
-If you move the install folder (`autoclassweb-app-master`), you have to re-run the installation script.
+If you move the install folder `autoclassweb-app-master` somewhere else, you have to re-run the installation script.
 
 The installation procedure is inspired from [START-R](https://github.com/thomasdenecker/START-R) developed by Thomas Denecker.
 
