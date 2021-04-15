@@ -75,7 +75,7 @@ $ docker stop autoclassweb
 ```
 
 
-# Notes
+## Notes
 
 If you move the install folder `autoclassweb-app-master` somewhere else, you have to re-run the installation script.
 
