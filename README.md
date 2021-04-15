@@ -64,7 +64,7 @@ The directory `demo` in `autoclassweb-app-master` contains some files for a quic
 
 The classification should take a couple of seconds to perform. Refresh the page often to get the results.
 
-You should expect 3 classes with 100 members and with the means of variables *x* and *y* being approximately *{3, 4}*, *{4, 0}* and *{7, 5}* (not necessarily in this order).
+You should expect 3 classes with 100 members each, and with the means of variables *x* and *y* being approximately *{3, 4}*, *{4, 0}* and *{7, 5}* (not necessarily in this order).
 
 
 ## Stop the app
