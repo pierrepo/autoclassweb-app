@@ -44,6 +44,8 @@ For Mac or Linux/Ubuntu, open a terminal and run the following command:
 $ bash autoclassweb-app.sh
 ```
 
+**Remark:** don't worry if you have this error message *Error response from daemon: No such container: autoclassweb*. This means the app in not running yet. This is fine.
+
 
 ## Use the app
 
