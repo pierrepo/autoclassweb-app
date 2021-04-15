@@ -1,6 +1,8 @@
 # AutoClassWeb app
 
-This document explains how to deploy AutoClassWeb as a local web app.
+This document explains how to deploy AutoClassWeb as a **local** web application.
+
+Due to security reasons, its usage should be strictly restricted to a local use only (lab or institute should be fine) and the app shouldn't be accessible to anyone from the internet.
 
 
 ## Install Docker
@@ -24,10 +26,10 @@ Download the [autoclassweb-app-master.zip](https://github.com/pierrepo/autoclass
 
 Open the `autoclassweb-app-master` folder. According to your operating system, run the proper installation script.
 
-For Windows, double-click on the `install_for_windows.bat` script. Wait few minutes.
+For Windows, double-click on the `install_for_windows.bat` script. Wait a few minutes.
 
-For Mac or Linux/Ubuntu, open a terminal, run the following command and wat few minutes:
-```
+For Mac or Linux/Ubuntu, open a terminal, run the following command and wait a few minutes:
+```bash
 $ bash install_for_mac_linux.sh
 ```
 
@@ -38,7 +40,7 @@ $ bash install_for_mac_linux.sh
 For Windows, double-click on the file `autoclassweb-app.bat`. Accept security warnings if any.
 
 For Mac or Linux/Ubuntu, open a terminal and run the following command:
-```
+```bash
 $ bash autoclassweb-app.sh
 ```
 
@@ -62,7 +64,7 @@ The expected number of classes is 3 with means of variables *x* and *y* being ap
 
 ## Stop the app
 
-While idle, the app will use very few resources. If you want to stop the app anyway, run the following command in a terminal:
+While idle, the app will use very little resources. If you want to stop the app anyway, run the following command in a terminal:
 ```
 $ docker stop autoclassweb
 ```
