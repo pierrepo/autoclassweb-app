@@ -1,8 +1,8 @@
 # AutoClassWeb app
 
-This document explains how to deploy AutoClassWeb as a **local** web application.
+This document explains how to deploy [AutoClassWeb](https://github.com/pierrepo/autoclassweb) as a **local** web application.
 
-Due to security reasons, its usage should be strictly restricted to a local use only (lab or institute should be fine) and the app shouldn't be accessible to anyone from the internet.
+Due to security reasons, its usage should be strictly restricted to a local use only (lab or institute should be fine). This app shouldn't be accessible to anyone from the internet.
 
 
 ## Install Docker
